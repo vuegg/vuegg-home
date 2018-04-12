@@ -1,0 +1,55 @@
+## Basic Configuration
+baseURL = "https://vuegg.now.sh/"
+languageCode = "en"
+theme = "hyde-hyde"
+title = "vuegg"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "alxpez"
+    description = "vue GUI generator"
+    authorimage = "/android-chrome-512x512.png"
+    dateformat = ""
+    highlightjs = true
+    highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus
+    # GraphCommentId = "your-graph-comment-id"
+
+## Social Accounts
+[params.social]
+    github = "alxpez"
+    stackoverflow = "alpez"
+    linkedin = "alexperezdev"
+    email = "vuegger@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Concept"
+    weight = 100
+    identifier = "concept"
+    url = "/concept"
+[[menu.main]]
+    name = "Features"
+    weight = 100
+    identifier = "features"
+    url = "/features"
+[[menu.main]]
+    name = "Roadmap"
+    weight = 100
+    identifier = "roadmap"
+    url = "/roadmap"
+[[menu.main]]
+    name = "Local setup"
+    identifier = "setup"
+    weight = 200
+    url = "/setup"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 200
+    url = "/about"
